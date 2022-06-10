@@ -1,0 +1,19 @@
+---
+layout: templates/_base.html
+pageName: "Home"
+---
+<header class="c-header">
+  <h1 class="header__title">
+    <a rel="noreferrer" href="/">Graph to Keyframes generator</a>
+  </h1>
+</header>
+
+<main>
+  <h2>Graph</h2>
+  <svg id="line-graph" width="1000" height="750"></svg>
+</main>
+
+<footer class="c-footer"></footer>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script type="module" src="/line-graph.js"></script>

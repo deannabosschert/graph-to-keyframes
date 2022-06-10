@@ -1,0 +1,18 @@
+// RESETS
+@import "generic/generic.box-sizing";
+@import "generic/generic.reset";
+
+
+// SETTINGS
+@import "settings/settings.color";
+@import "settings/settings.layout";
+@import "settings/settings.spacing";
+@import "settings/_settings.spacing.scss";
+
+
+// GENERIC
+@import "generic/generic.typography";
+@import "generic/generic.page";
+
+// UTILITIES
+@import "utilities/utilities.hide";
